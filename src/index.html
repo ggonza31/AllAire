@@ -1,7 +1,53 @@
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My app</title>
+
   </head>
+  <style>
+.smartphone {
+      position: relative;
+      width: 360px;
+      height: 640px;
+      margin: auto;
+      border: 16px black solid;
+      border-top-width: 60px;
+      border-bottom-width: 60px;
+      border-radius: 36px;
+    }
+    
+    .smartphone:before {
+      content: '';
+      display: block;
+      width: 60px;
+      height: 5px;
+      position: absolute;
+      top: -30px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: #333;
+      border-radius: 10px;
+    }
+    
+    .smartphone:after {
+      content: '';
+      display: block;
+      width: 35px;
+      height: 35px;
+      position: absolute;
+      left: 50%;
+      bottom: -65px;
+      transform: translate(-50%, -50%);
+      background: #333;
+      border-radius: 50%;
+    }
+    
+    .smartphone .content {
+      width: 360px;
+      height: 640px;
+      background: white;
+    }
+  </style>
   <body>
     <my-app>Loading...</my-app>
     <p>Hello, Welcome to our web interface.</p>
@@ -12,5 +58,16 @@
       <li><a target="_blank" href="tryit.asp?filename=trycss_text">IAQ</a></p></li>
       <li><a target="_blank" href="tryit.asp?filename=trycss_text">DP</a></p></li>
     </ul>
+
+
+    <div class="gallery">
+      <a target="_blank" href="https://www.protrainings.uk/wiki/wp-content/uploads/2018/02/shutterstock_670255726.jpg">
+        <img src="https://www.protrainings.uk/wiki/wp-content/uploads/2018/02/shutterstock_670255726.jpg" width="150" height="150" >
+      </a>
+
+      <a target="_blank" href="http://greenbuildingelements.com/wp-content/uploads/2016/03/CO2-graphic-shutterstock_299097950.jpg">
+        <img src="http://greenbuildingelements.com/wp-content/uploads/2016/03/CO2-graphic-shutterstock_299097950.jpg" width="150" height="150" >
+      </a>
+    </div>
   </body>
 </html>
