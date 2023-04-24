@@ -15,4 +15,5 @@ export class App {
   name = 'All Aire';
 }
 
+
 bootstrapApplication(App);
