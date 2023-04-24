@@ -8,7 +8,7 @@ import { bootstrapApplication } from '@angular/platform-browser';
   standalone: true,
   imports: [CommonModule],
   template: `
-    <h1>{{name}}</h1>
+    <h1><img src = "http://drive.google.com/uc?export=view&id=1-2pZTvPBDFjiz0S8N5LYJKIQ4NU_-x75" width="350" height="350"></h1>
   `,
 })
 export class App {
